@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  /* border: black solid 1px; */
 }
 
 body {
@@ -9,4 +10,7 @@ body {
   padding: 0;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0VBR0Usc0JBQUE7QUNDRjs7QURHQTtFQUNFLFNBQUE7RUFDQSxVQUFBO0FDQUYiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+.messages * {
+  border: black solid 1px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0VBR0Usc0JBQUE7RUFDQSx1QkFBQTtBQ0NGOztBREVBO0VBQ0UsU0FBQTtFQUNBLFVBQUE7QUNDRiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

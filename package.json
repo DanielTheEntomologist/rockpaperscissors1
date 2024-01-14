@@ -1,5 +1,5 @@
 {
-  "name": "kodilla_module3_final_task",
+  "name": "kodilla_module4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,15 +21,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielTheEntomologist/learning-git-3.git"
+    "url": "git+https://github.com/DanielTheEntomologist/rockpaperscissors1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DanielTheEntomologist/learning-git-3/issues"
+    "url": "https://github.com/DanielTheEntomologist/rockpaperscissors1/issues"
   },
-  "homepage": "https://github.com/DanielTheEntomologist/learning-git-3#readme",
+  "homepage": "https://github.com/DanielTheEntomologist/rockpaperscissors1#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "browser-sync": "^3.0.2",
