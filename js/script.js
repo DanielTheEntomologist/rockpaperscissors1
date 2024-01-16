@@ -1,6 +1,7 @@
-let move = "stone";
+"use strict";
 
-// JS fillable string
-let message = `Zagrałem  ${move} ! Jeśli Twój ruch to papier, to wygrywasz!`;
+let moves = ["kamień", "papier", "nożyce"];
 
-printMessage(message);
+// get random number between 0 and 2
+let randomNumber = Math.floor(Math.random() * 3);
+let computerMove = moves[randomNumber];
