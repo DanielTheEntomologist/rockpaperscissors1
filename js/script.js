@@ -20,3 +20,15 @@ if (playerMove == "1") {
 
 printMessage(`Twój ruch to: ${playerMove}`);
 printMessage("Mój ruch to: " + computerMove);
+
+if (computerMove == playerMove) {
+  printMessage("Remis!");
+} else if (computerMove == "kamień" && playerMove == "nożyce") {
+  printMessage("Ja wygrywam!");
+} else if (computerMove == "papier" && playerMove == "kamień") {
+  printMessage("Ja wygrywam!");
+} else if (computerMove == "nożyce" && playerMove == "papier") {
+  printMessage("Ja wygrywam!");
+} else {
+  printMessage("Ty wygrywasz!");
+}
